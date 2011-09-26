@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of TIMS (http://github.com/wvrius/android-tims/)
+  
+  Copyright (c) 2011 Marius Ungureanu <marius@wvrius.com> - All rights reserved.
+  
+  TIMS is free software; you can redistribute it and/or modify  it under the terms 
+  of the GNU General Public License V3 as published by the Free Software Foundation
+   
+  This software is distribuited WITHOUT ANY WARRANTY.
+-->
+    <LinearLayout android:id="@+id/linearLayout1" android:background="#736f6e" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+   
+    <TableLayout android:layout_marginTop="10dp"  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	 android:weightSum="1" android:paddingLeft="15dp" android:paddingRight="15dp">
+     <TableRow>
+         <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent"  >
+       
+         </RelativeLayout>
+   
+    </TableRow>
+    <TableRow>
+    <Button android:background="@drawable/dialer_button" android:drawableTop="@drawable/phone" android:onClick="showDialer" android:clickable="true" android:textColor="@color/button_text" android:gravity="bottom" android:paddingLeft="10dp"   android:layout_marginRight="6dp" android:layout_width="140dp" android:layout_height="140dp" android:text="Place call"  android:id="@+id/button_placecall"/>
+    <Button android:background="@drawable/messages_button" android:drawableTop="@drawable/email" android:paddingLeft="10dp" android:text="Messages" android:layout_width="140dp" android:focusable="true" android:textColor="@color/button_text" android:layout_height="140dp" android:id="@+id/button_viewmessages" android:gravity="bottom"></Button>
+    </TableRow>
+	
+	<TableRow android:layout_marginTop="6dp">
+	
+	 <Button android:background="@drawable/dialer_button"   android:drawableTop="@drawable/friends" android:textColor="@color/button_text" android:gravity="bottom" android:paddingLeft="10dp" android:layout_marginRight="6dp" android:layout_width="140dp" android:layout_height="140dp" android:text="View friends"  android:id="@+id/button_viewfriends"/>
+    <Button android:background="@drawable/messages_button" android:drawableTop="@drawable/nut" android:onClick="showSettings" android:gravity="bottom" android:textColor="@color/button_text" android:paddingLeft="10dp" android:layout_width="140dp" android:layout_height="140dp" android:text="Settings"  android:id="@+id/button_showsettings"/>
+    </TableRow>
+	<TableRow android:layout_marginTop="6dp">
+	 
+	 </TableRow>
+	 
+	 
+	 
+	 <TableRow >
+	 </TableRow>
+	  <TableRow >
+	 </TableRow>
+	 
+	  
+	 
+
+	
+</TableLayout>
+
+</LinearLayout>
+  

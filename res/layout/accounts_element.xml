@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of TIMS (http://github.com/wvrius/android-tims/)
+  
+  Copyright (c) 2011 Marius Ungureanu <marius@wvrius.com> - All rights reserved.
+  
+  TIMS is free software; you can redistribute it and/or modify  it under the terms 
+  of the GNU General Public License V3 as published by the Free Software Foundation
+   
+  This software is distribuited WITHOUT ANY WARRANTY.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    >
+    <ImageView 
+    android:layout_marginLeft="3dp"
+     android:layout_marginTop="3dp"
+     android:layout_marginBottom="3dp"
+     android:src="@drawable/icon"
+     android:layout_width="48dp" android:layout_height="48dp"/>
+    <LinearLayout android:layout_marginLeft="10dp" android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="wrap_content">
+      <TextView
+     android:id="@+id/account_name"
+     android:text="Sample"
+     android:layout_width="fill_parent"
+    
+     android:textSize="22dp"
+     android:layout_height="wrap_content"/>
+      <TextView
+     android:id="@+id/account_status"
+     android:text="Sample2"
+     android:layout_width="fill_parent"
+    android:textSize="12dp"
+     android:layout_height="wrap_content"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="right" android:layout_gravity="right">
+    <CheckBox android:id="@+id/enable_register"  android:layout_width="50dp" android:layout_height="50dp"/>
+    
+    </LinearLayout>
+     
+</LinearLayout>

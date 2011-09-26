@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of TIMS (http://github.com/wvrius/android-tims/)
+  
+  Copyright (c) 2011 Marius Ungureanu <marius@wvrius.com> - All rights reserved.
+  
+  TIMS is free software; you can redistribute it and/or modify  it under the terms 
+  of the GNU General Public License V3 as published by the Free Software Foundation
+   
+  This software is distribuited WITHOUT ANY WARRANTY.
+-->
+<resources>
+    <string name="hello">Hello World, TimsActivity!</string>
+    <string name="app_name">tIMS</string>
+</resources>

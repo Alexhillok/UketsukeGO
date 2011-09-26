@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of TIMS (http://github.com/wvrius/android-tims/)
+  
+  Copyright (c) 2011 Marius Ungureanu <marius@wvrius.com> - All rights reserved.
+  
+  TIMS is free software; you can redistribute it and/or modify  it under the terms 
+  of the GNU General Public License V3 as published by the Free Software Foundation
+   
+  This software is distribuited WITHOUT ANY WARRANTY.
+-->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <Button android:onClick="createAccount" android:id="@+id/button1" android:text="Add new account" android:layout_height="wrap_content" android:layout_width="267dp" android:layout_gravity="center_horizontal"></Button>
+    <ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/accounts_listview"></ListView>
+    
+</LinearLayout>

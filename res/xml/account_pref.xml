@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of TIMS (http://github.com/wvrius/android-tims/)
+  
+  Copyright (c) 2011 Marius Ungureanu <marius@wvrius.com> - All rights reserved.
+  
+  TIMS is free software; you can redistribute it and/or modify  it under the terms 
+  of the GNU General Public License V3 as published by the Free Software Foundation
+   
+  This software is distribuited WITHOUT ANY WARRANTY.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <EditTextPreference android:key="accountName"
+   android:title="Account name"
+   android:summary="Your account name"
+   android:defaultValue=""/>
+   
+   
+   <PreferenceCategory android:title="User details">
+   <EditTextPreference android:key="displayName"
+   android:title="Display name"
+   android:summary="Your display name"
+   android:defaultValue=""/>
+   
+    <EditTextPreference android:key="userName"
+   android:title="User name"
+   android:summary="Your username"
+   android:defaultValue=""/>
+   
+   <EditTextPreference
+   android:key="editPassword"
+   android:title="Your password"
+   android:summary="Your account password"  
+   android:defaultValue=""  />
+
+
+ </PreferenceCategory>
+  
+  <PreferenceCategory android:title="Server details">
+
+    <EditTextPreference
+   android:key="authorizationName"
+   android:title="Authorization Name"
+   android:summary="Authorization Name"  
+   android:defaultValue=""  />
+
+	<EditTextPreference
+   	android:key="proxyAddress"
+   	android:title="Server or proxy"
+   	android:summary="Server or proxy"  
+   	android:defaultValue=""  />
+   
+   <EditTextPreference
+   	android:key="proxyPort"
+   	android:title="Server or proxy"
+   	android:summary="Server or proxy"  
+   	android:defaultValue="5060"  />
+  
+  <EditTextPreference
+   android:key="domainName"
+   android:title="Registering Domain"
+   android:summary="Leave empty if save as server"  
+   android:defaultValue=""  />
+   
+  </PreferenceCategory>
+ 
+ <PreferenceCategory android:title="Connection">
+ 
+  <ListPreference
+   android:key="transportProtocol"
+   android:title="Transport Protocol"
+   android:summary="What protocol to use"
+   android:entries="@array/supportedProtocols"
+   android:entryValues="@array/supportedProtocols" />
+ </PreferenceCategory>
+
+<CheckBoxPreference
+	android:key="registerOnStartup"
+	android:title="Register On Startup"
+	android:defaultValue="False"
+	android:summary="Register on startup"
+></CheckBoxPreference>
+
+</PreferenceScreen>
